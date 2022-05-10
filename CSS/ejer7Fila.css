@@ -1,0 +1,53 @@
+
+.imagen img {
+    
+    margin: 10px;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 90%;
+    margin: 1px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.fila3 {
+    margin: 10px;
+    text-align: center;
+}
+
+.fila3 .imagen {
+    margin: 10px;
+    border: 1px solid black;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.fila2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.fila2 .imagen {
+    margin: 10px;
+    
+    border: 1px solid black;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.fila1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.fila1 .imagen {
+    margin: 10px;
+    border: 1px solid black;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+}

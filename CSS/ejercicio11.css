@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 126, 206);
+}
+
+nav {
+    background-color: rgb(224, 48, 210);
+}
+
+.imagen {
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+
+
+.animales {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+}
+
+aside {
+    width: 12%;
+    background-color: rgb(133, 133, 133);
+}
+
+main{
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(30, 255, 0);
+}
+
+

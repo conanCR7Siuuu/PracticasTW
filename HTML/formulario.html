@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+        label { display:block; }
+       </style>
+       
+    <meta charset="utf-8">
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <form action="https://void.ugr.es/procesar2.php" method="get">
+        <label><p>Nombre:</p> <input type="text" name="nombre" placeholder= "Campo Obligatorio" required/></label>
+        <label></label><p>Apellidos:</p> <input type="text" name="apellidos" novalidate/></label>
+        <label><p>Clave:</p> <input type="password" name="Clave"></label>
+        <label><p>Nacionalidad:</p> <input type="text" value="España" name="nacionalidad"></label>
+        <label><p>Email:</p> <input type="email" name="correo"></label>
+        <label><p>Sexo:</p>
+            <select name="sexo">
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option selected>No deseo responder</option>
+                </select>
+        </label><p>Elije una de las siguientes opciones:</p>
+        <select name="mejor">
+            <option value ="TOTAL">Acepta el almacenamiento de mis datos y el envío a terceros</option>
+            <option value ="PARCIAL">Acepta el almacenamiento de mis datos pero no el envío a terceros</option>
+            <option value ="NINGUNO">No acepta el almacenamiento ni el envío de datos a terceros</option>
+            </select>
+
+        <label><p>Seleccione un idioma:</p>
+            <input type="radio" name="mejor" value="español" checked />
+            Español
+            <input type="radio" name="mejor" value="ingles" />
+            Inglés
+            <input type="radio" name="mejor" value="frances" />
+            Francés
+        </label>
+        <label><p>Indique sus aficiones:</p>
+            <input type="checkbox" name="aficiones" value="musica" />
+            La música
+            <input type="checkbox" name="aficiones" value="libros" />
+            Leer libros
+            <input type="checkbox" name="aficiones" value="cine" />
+            El cine
+            <input type="checkbox" name="aficiones" value="deporte" />
+            El deporte
+
+        </label>
+        <label><p>Fecha: </p><input type="date" name="fecha">
+        <label><p>¿Cuando es la Semana Santa de este año? </p><input type="week" name="ssanta">
+        <label><p>Inserte una imagen: </p><input type="file" name="fichero" accept=“image/*"></label>
+
+        <label><input type="submit" value="Enviar"/></label>
+        </form> 
+  </body>
