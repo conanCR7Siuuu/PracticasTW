@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.resultado{
+    text-align: center;
+}
+
+.error{
+    font-size: smaller;
+    color: red;
+}
